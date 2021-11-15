@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "464195140287",
+    "firebase_url": "https://karakeb-6d8bf.firebaseio.com",
+    "project_id": "karakeb-6d8bf",
+    "storage_bucket": "karakeb-6d8bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464195140287:android:4e041b5af0ce4f59",
+        "android_client_info": {
+          "package_name": "com.example.mykarkeb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464195140287-l2pnf3t5igo0hbb5ac9mhshlr48ofcj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mykarkeb",
+            "certificate_hash": "bc083b16cc4fbcf77318d407efd0f932e11359cc"
+          }
+        },
+        {
+          "client_id": "464195140287-0vuh6mui1cnv7k40f5ccvq7e52i3paj9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mykarkeb",
+            "certificate_hash": "bcb276716a5673d8232e0e002c815c8e2f8953c9"
+          }
+        },
+        {
+          "client_id": "464195140287-9um5o3tvv3440kh21bbaet4ngjlq1jun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJGpyHLjUmA47NVHixh9_o6dnMQpWiv-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464195140287-9um5o3tvv3440kh21bbaet4ngjlq1jun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

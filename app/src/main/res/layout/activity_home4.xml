@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home3"
+   android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:id="@+id/yourweightchoice"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="73dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Your Weight"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/enterweight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enterweight"
+        android:layout_width="170dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/yourweightchoice"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/buttonswhite"
+        android:hint="Kg"
+        android:padding="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/next3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yourweightchoice" />
+
+    <Button
+        android:id="@+id/next3"
+        android:layout_width="213dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/enterweight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="false"
+
+        android:layout_marginStart="8dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="208dp"
+        android:background="@drawable/buttonswhite"
+        android:padding="20dp"
+        android:text="NEXT"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterweight" />
+
+
+</android.support.constraint.ConstraintLayout>
